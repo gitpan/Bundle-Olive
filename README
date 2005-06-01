@@ -1,0 +1,25 @@
+Bundle-Olive
+
+Installs all dependancies of the Olive Newsfeeder.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    cpan Bundle::Olive
+    
+       -or-
+    
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+
+THANKS
+
+edsu, for the idea and for testing
+
+COPYRIGHT AND LICENCE
+
+This module is hereby placed in the Public Domain.
