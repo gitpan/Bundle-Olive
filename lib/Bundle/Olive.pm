@@ -9,15 +9,19 @@ Bundle::Olive - Install all dependancies of the Olive Newsfeeder
 
 =head1 VERSION
 
-Version 1.0
+Version 1.1
 
 =cut
 
-our $VERSION = '1.0';
+our $VERSION = '1.1';
 
 =head1 SYNOPSIS
 
     perl -MCPAN -e 'install Bundle::Olive'
+    
+       ~or~
+    
+    cpan Bundle::Olive
 
 =head1 CONTENTS
 
@@ -37,7 +41,7 @@ XML::Parser - Keeps us from having to hand-parse XML
 
 XML::Simple - Keeps us from having to understand XML::Parser
 
-= DESCRIPTION
+=head1 DESCRIPTION
 
 Installs the fleet of Olive deps, so you don't have to. Olive can be
 found at L<http://mdxi.collapsar.net/hacks/olive/>
