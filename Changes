@@ -1,5 +1,8 @@
 Revision history for Bundle-Olive
 
+1.2     2006-01-08
+        Added Log::Dispatch::File
+
 1.1     2005-06-11
         Typo fix (no functional changes)
 

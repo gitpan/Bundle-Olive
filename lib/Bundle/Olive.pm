@@ -9,11 +9,11 @@ Bundle::Olive - Install all dependancies of the Olive Newsfeeder
 
 =head1 VERSION
 
-Version 1.1
+Version 1.2
 
 =cut
 
-our $VERSION = '1.1';
+our $VERSION = '1.2';
 
 =head1 SYNOPSIS
 
@@ -34,6 +34,8 @@ Date::Calc - Handles those freakin' RFC822 strings
 DBI - DBI++
 
 DBD::SQLite - sqlite++
+
+Log::Dispatch::File - Now with proper logging!
 
 LWP::UserAgent - Talks to the Internets
 
